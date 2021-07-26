@@ -3,8 +3,8 @@
   <packaging>war</packaging>
   <version>1.0</version>
 
-  <groupId>com.google.appengine.demos</groupId>
-  <artifactId>appengine-try-java</artifactId>
+  <groupId>edu.txstate.sl20</groupId>
+  <artifactId>jsphello</artifactId>
 
   <!-- Parent POM defines common plugins and properties. -->
   <parent>
@@ -94,7 +94,7 @@
         <artifactId>appengine-maven-plugin</artifactId>
         <version>${appengine-maven-plugin-version}</version>
         <configuration>
-            <deploy.projectId>netbeans-hello</deploy.projectId>
+            <deploy.projectId>jsphello</deploy.projectId>
             <deploy.version>1</deploy.version>
         </configuration>
       </plugin>

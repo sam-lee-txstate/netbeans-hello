@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package txstate.edu.arg303.homework3arg303;
+import java.io.Serializable;
 
 /**
  *

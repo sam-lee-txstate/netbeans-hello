@@ -9,7 +9,7 @@ package txstate.edu.arg303.homework3arg303;
  *
  * @author Austin's NetBeans
  */
-public class Student 
+public class Student implements Serializable
 {
     private String userName;
     private String email;
